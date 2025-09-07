@@ -1,9 +1,8 @@
 {
-  "name": "sticky-wall-frontend",
+  "name": "vite-react-typescript-starter",
   "private": true,
-  "version": "1.0.0",
+  "version": "0.0.0",
   "type": "module",
-  "description": "Interactive sticky note wall application with real-time collaboration",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,17 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "axios": "^1.6.2",
-    "framer-motion": "^10.16.16",
-    "html2canvas": "^1.4.1",
-    "konva": "^9.2.0",
+    "firebase": "^12.2.1",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
-    "react-colorful": "^5.6.1",
     "react-dom": "^18.3.1",
-    "react-konva": "^18.2.10",
-    "socket.io-client": "^4.7.4",
-    "zustand": "^4.4.7"
+    "react-router-dom": "^7.8.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
